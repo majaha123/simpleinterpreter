@@ -1,0 +1,224 @@
+Start testing: Apr 19 18:44 RTZ 2 (ceia)
+----------------------------------------------------------
+1/4 Testing: Lexer_test
+1/4 Test: Lexer_test
+Command: "C:/Users/user123/Desktop/11class/ownInterpreter/build/test/Lexer_test.exe"
+Directory: C:/Users/user123/Desktop/11class/ownInterpreter/build/test
+"Lexer_test" start time: Apr 19 18:44 RTZ 2 (ceia)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\user123\Desktop\11class\ownInterpreter\googletest\googletest\src\gtest_main.cc
+[==========] Running 9 tests from 8 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from LEXER_UTILITY
+[ RUN      ] LEXER_UTILITY.L_UTILITY
+[       OK ] LEXER_UTILITY.L_UTILITY (0 ms)
+[----------] 1 test from LEXER_UTILITY (0 ms total)
+
+[----------] 1 test from EMPTY_TEST_CASES
+[ RUN      ] EMPTY_TEST_CASES.EMPTY
+[       OK ] EMPTY_TEST_CASES.EMPTY (0 ms)
+[----------] 1 test from EMPTY_TEST_CASES (0 ms total)
+
+[----------] 1 test from INTEGER_CASES
+[ RUN      ] INTEGER_CASES.INTEGER
+[       OK ] INTEGER_CASES.INTEGER (0 ms)
+[----------] 1 test from INTEGER_CASES (0 ms total)
+
+[----------] 1 test from FLOAT_CASES
+[ RUN      ] FLOAT_CASES.FLOAT
+[       OK ] FLOAT_CASES.FLOAT (0 ms)
+[----------] 1 test from FLOAT_CASES (0 ms total)
+
+[----------] 1 test from BASIC_CASES
+[ RUN      ] BASIC_CASES.BASIC
+[       OK ] BASIC_CASES.BASIC (5 ms)
+[----------] 1 test from BASIC_CASES (5 ms total)
+
+[----------] 2 tests from LEXER_IF_ELSE
+[ RUN      ] LEXER_IF_ELSE.IF_ELSE1
+[       OK ] LEXER_IF_ELSE.IF_ELSE1 (0 ms)
+[ RUN      ] LEXER_IF_ELSE.IF_ELSE2
+[       OK ] LEXER_IF_ELSE.IF_ELSE2 (0 ms)
+[----------] 2 tests from LEXER_IF_ELSE (0 ms total)
+
+[----------] 1 test from LEXER_LOGICAL_EXPR
+[ RUN      ] LEXER_LOGICAL_EXPR.L_EXPR
+[       OK ] LEXER_LOGICAL_EXPR.L_EXPR (0 ms)
+[----------] 1 test from LEXER_LOGICAL_EXPR (0 ms total)
+
+[----------] 1 test from LEXER_PRINT
+[ RUN      ] LEXER_PRINT.PRINT
+[       OK ] LEXER_PRINT.PRINT (0 ms)
+[----------] 1 test from LEXER_PRINT (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 9 tests from 8 test suites ran. (6 ms total)
+[  PASSED  ] 9 tests.
+<end of output>
+Test time =   0.38 sec
+----------------------------------------------------------
+Test Passed.
+"Lexer_test" end time: Apr 19 18:44 RTZ 2 (ceia)
+"Lexer_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: Parser_test
+2/4 Test: Parser_test
+Command: "C:/Users/user123/Desktop/11class/ownInterpreter/build/test/Parser_test.exe"
+Directory: C:/Users/user123/Desktop/11class/ownInterpreter/build/test
+"Parser_test" start time: Apr 19 18:44 RTZ 2 (ceia)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\user123\Desktop\11class\ownInterpreter\googletest\googletest\src\gtest_main.cc
+[==========] Running 23 tests from 6 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from PARSER_NODES_IS_SAME_TEST
+[ RUN      ] PARSER_NODES_IS_SAME_TEST.IS_SAME_TEST
+[       OK ] PARSER_NODES_IS_SAME_TEST.IS_SAME_TEST (0 ms)
+[----------] 1 test from PARSER_NODES_IS_SAME_TEST (0 ms total)
+
+[----------] 17 tests from PARSER_VARIABLE_TEST
+[ RUN      ] PARSER_VARIABLE_TEST.BASIC_VARIABLE
+[       OK ] PARSER_VARIABLE_TEST.BASIC_VARIABLE (6 ms)
+[ RUN      ] PARSER_VARIABLE_TEST.INT_VARIABLE_ASSIGN
+[       OK ] PARSER_VARIABLE_TEST.INT_VARIABLE_ASSIGN (0 ms)
+[ RUN      ] PARSER_VARIABLE_TEST.FLOAT_VARIABLE_ASSIGN
+[       OK ] PARSER_VARIABLE_TEST.FLOAT_VARIABLE_ASSIGN (0 ms)
+[ RUN      ] PARSER_VARIABLE_TEST.INT_VARIABLE_ASSIGN_SUM
+[       OK ] PARSER_VARIABLE_TEST.INT_VARIABLE_ASSIGN_SUM (0 ms)
+[ RUN      ] PARSER_VARIABLE_TEST.FLOAT_VARIABLE_ASSIGN_SUM
+[       OK ] PARSER_VARIABLE_TEST.FLOAT_VARIABLE_ASSIGN_SUM (0 ms)
+[ RUN      ] PARSER_VARIABLE_TEST.INT_VARIABLE_ASSIGN_DIFF
+[       OK ] PARSER_VARIABLE_TEST.INT_VARIABLE_ASSIGN_DIFF (0 ms)
+[ RUN      ] PARSER_VARIABLE_TEST.FLOAT_VARIABLE_ASSIGN_DIFF
+[       OK ] PARSER_VARIABLE_TEST.FLOAT_VARIABLE_ASSIGN_DIFF (0 ms)
+[ RUN      ] PARSER_VARIABLE_TEST.INT_VARIABLE_ASSIGN_MUL
+[       OK ] PARSER_VARIABLE_TEST.INT_VARIABLE_ASSIGN_MUL (0 ms)
+[ RUN      ] PARSER_VARIABLE_TEST.FLOAT_VARIABLE_ASSIGN_MUL
+[       OK ] PARSER_VARIABLE_TEST.FLOAT_VARIABLE_ASSIGN_MUL (0 ms)
+[ RUN      ] PARSER_VARIABLE_TEST.INT_VARIABLE_ASSIGN_DIV
+[       OK ] PARSER_VARIABLE_TEST.INT_VARIABLE_ASSIGN_DIV (0 ms)
+[ RUN      ] PARSER_VARIABLE_TEST.FLOAT_VARIABLE_ASSIGN_DIV
+[       OK ] PARSER_VARIABLE_TEST.FLOAT_VARIABLE_ASSIGN_DIV (0 ms)
+[ RUN      ] PARSER_VARIABLE_TEST.INT_VARIABLE_EXPRESSION_ORDER_ASSIGN1
+[       OK ] PARSER_VARIABLE_TEST.INT_VARIABLE_EXPRESSION_ORDER_ASSIGN1 (0 ms)
+[ RUN      ] PARSER_VARIABLE_TEST.INT_VARIABLE_EXPRESSION_ORDER_ASSIGN2
+[       OK ] PARSER_VARIABLE_TEST.INT_VARIABLE_EXPRESSION_ORDER_ASSIGN2 (0 ms)
+[ RUN      ] PARSER_VARIABLE_TEST.INT_VARIABLE_EXPRESSION_ORDER_ASSIGN3
+[       OK ] PARSER_VARIABLE_TEST.INT_VARIABLE_EXPRESSION_ORDER_ASSIGN3 (0 ms)
+[ RUN      ] PARSER_VARIABLE_TEST.FLOAT_VARIABLE_EXPRESSION_ORDER_ASSIGN1
+[       OK ] PARSER_VARIABLE_TEST.FLOAT_VARIABLE_EXPRESSION_ORDER_ASSIGN1 (0 ms)
+[ RUN      ] PARSER_VARIABLE_TEST.FLOAT_EXPRESSION_ASSIGN_COMPLEX_EXPRESSION
+[       OK ] PARSER_VARIABLE_TEST.FLOAT_EXPRESSION_ASSIGN_COMPLEX_EXPRESSION (0 ms)
+[ RUN      ] PARSER_VARIABLE_TEST.REUSE_VARIABLE
+[       OK ] PARSER_VARIABLE_TEST.REUSE_VARIABLE (0 ms)
+[----------] 17 tests from PARSER_VARIABLE_TEST (6 ms total)
+
+[----------] 1 test from PARSER_PRINT_TEST
+[ RUN      ] PARSER_PRINT_TEST.BASIC_PRINT
+[       OK ] PARSER_PRINT_TEST.BASIC_PRINT (0 ms)
+[----------] 1 test from PARSER_PRINT_TEST (0 ms total)
+
+[----------] 1 test from PARSER_ASSIGN_TEST
+[ RUN      ] PARSER_ASSIGN_TEST.ASSIGN
+[       OK ] PARSER_ASSIGN_TEST.ASSIGN (0 ms)
+[----------] 1 test from PARSER_ASSIGN_TEST (0 ms total)
+
+[----------] 1 test from PARSER_BRANCHING
+[ RUN      ] PARSER_BRANCHING.BASIC_BRANCHING
+[       OK ] PARSER_BRANCHING.BASIC_BRANCHING (0 ms)
+[----------] 1 test from PARSER_BRANCHING (0 ms total)
+
+[----------] 2 tests from PARSER_CYCLING
+[ RUN      ] PARSER_CYCLING.BASIC_FOR_CYCLING
+[       OK ] PARSER_CYCLING.BASIC_FOR_CYCLING (0 ms)
+[ RUN      ] PARSER_CYCLING.BASIC_WHILE_CYCLING
+[       OK ] PARSER_CYCLING.BASIC_WHILE_CYCLING (0 ms)
+[----------] 2 tests from PARSER_CYCLING (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 23 tests from 6 test suites ran. (7 ms total)
+[  PASSED  ] 23 tests.
+<end of output>
+Test time =   0.31 sec
+----------------------------------------------------------
+Test Passed.
+"Parser_test" end time: Apr 19 18:44 RTZ 2 (ceia)
+"Parser_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: Interpreter_test
+3/4 Test: Interpreter_test
+Command: "C:/Users/user123/Desktop/11class/ownInterpreter/build/test/Interpreter_test.exe"
+Directory: C:/Users/user123/Desktop/11class/ownInterpreter/build/test
+"Interpreter_test" start time: Apr 19 18:44 RTZ 2 (ceia)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\user123\Desktop\11class\ownInterpreter\googletest\googletest\src\gtest_main.cc
+[==========] Running 7 tests from 4 test suites.
+[----------] Global test environment set-up.
+[----------] 3 tests from INTERPRETER_TEST
+[ RUN      ] INTERPRETER_TEST.BASIC_TEST1
+[       OK ] INTERPRETER_TEST.BASIC_TEST1 (0 ms)
+[ RUN      ] INTERPRETER_TEST.BASIC_TEST2
+[       OK ] INTERPRETER_TEST.BASIC_TEST2 (0 ms)
+[ RUN      ] INTERPRETER_TEST.BASIC_PRINT
+[       OK ] INTERPRETER_TEST.BASIC_PRINT (1 ms)
+[----------] 3 tests from INTERPRETER_TEST (1 ms total)
+
+[----------] 1 test from INTERPRETER_ASSIGN
+[ RUN      ] INTERPRETER_ASSIGN.BASIC_ASSIGN
+[       OK ] INTERPRETER_ASSIGN.BASIC_ASSIGN (0 ms)
+[----------] 1 test from INTERPRETER_ASSIGN (0 ms total)
+
+[----------] 1 test from INTERPRETER_BRANCHING
+[ RUN      ] INTERPRETER_BRANCHING.BASIC_BRANCHING
+[       OK ] INTERPRETER_BRANCHING.BASIC_BRANCHING (1 ms)
+[----------] 1 test from INTERPRETER_BRANCHING (1 ms total)
+
+[----------] 2 tests from INTERPRETER_CYCLING
+[ RUN      ] INTERPRETER_CYCLING.BASIC_FOR_CYCLING
+[       OK ] INTERPRETER_CYCLING.BASIC_FOR_CYCLING (1 ms)
+[ RUN      ] INTERPRETER_CYCLING.BASIC_WHILE_CYCLING
+[       OK ] INTERPRETER_CYCLING.BASIC_WHILE_CYCLING (1 ms)
+[----------] 2 tests from INTERPRETER_CYCLING (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 4 test suites ran. (6 ms total)
+[  PASSED  ] 7 tests.
+<end of output>
+Test time =   0.21 sec
+----------------------------------------------------------
+Test Passed.
+"Interpreter_test" end time: Apr 19 18:44 RTZ 2 (ceia)
+"Interpreter_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: Service_test
+4/4 Test: Service_test
+Command: "C:/Users/user123/Desktop/11class/ownInterpreter/build/test/Service_test.exe"
+Directory: C:/Users/user123/Desktop/11class/ownInterpreter/build/test
+"Service_test" start time: Apr 19 18:44 RTZ 2 (ceia)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\user123\Desktop\11class\ownInterpreter\googletest\googletest\src\gtest_main.cc
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PRACTICAL_USE
+[ RUN      ] PRACTICAL_USE.FIBONACCI_NUMBERS
+[       OK ] PRACTICAL_USE.FIBONACCI_NUMBERS (7 ms)
+[----------] 1 test from PRACTICAL_USE (7 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (8 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.14 sec
+----------------------------------------------------------
+Test Passed.
+"Service_test" end time: Apr 19 18:44 RTZ 2 (ceia)
+"Service_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 19 18:44 RTZ 2 (ceia)

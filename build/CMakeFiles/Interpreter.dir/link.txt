@@ -1,0 +1,2 @@
+C:\mingw32\bin\ar.exe qc libInterpreter.a CMakeFiles/Interpreter.dir/src/Lexer.cpp.obj CMakeFiles/Interpreter.dir/src/Parser.cpp.obj CMakeFiles/Interpreter.dir/src/Interpreter.cpp.obj CMakeFiles/Interpreter.dir/src/Nodes.cpp.obj
+C:\mingw32\bin\ranlib.exe libInterpreter.a

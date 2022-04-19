@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20220419-1542-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.22.0-rc2"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="ROL"
+	OSRelease="7"
+	OSVersion="Service Pack 1 (Build 7601)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="5"
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="4"
+	NumberOfPhysicalCPU="2"
+	TotalVirtualMemory="7982"
+	TotalPhysicalMemory="3992"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="1895"
+	>
+	<Testing>
+		<StartDateTime>Apr 19 18:44 RTZ 2 (ceia)</StartDateTime>
+		<StartTestTime>1650383072</StartTestTime>
+		<TestList>
+			<Test>./test/Lexer_test</Test>
+			<Test>./test/Parser_test</Test>
+			<Test>./test/Interpreter_test</Test>
+			<Test>./test/Service_test</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>Lexer_test</Name>
+			<Path>./test</Path>
+			<FullName>./test/Lexer_test</FullName>
+			<FullCommandLine>C:\Users\user123\Desktop\11class\ownInterpreter\build\test\Lexer_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.384285</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\Users\user123\Desktop\11class\ownInterpreter\build\test\Lexer_test.exe</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNk1FvgjAUhd/5FfdRH2zEbcm2ZA/OMUPGdAFMZsQQxIpk0BJadPv3lmIMVZzch3LL+U7vgaR2QUhMIkiDmHS6sMlpCqNnb8ZwzrxCrPrgznvD7IfTzNP1MAkY8+iemITjPMuxWL2I0igRHeP1luWhF5WdX56NwlBbvJxqCfZx8BOUDKsmP8oNsCIWT6QteqdawjihqyCpAEx2cU5JiomAMe8V2RmsV5w81DK+DdufuaZlunNtAfZsArKWqoSsGlTV9OM6BJ0+pKzbcm5FA6c8SLradZPx+eXOfddwXH80dAxHzXuuIvlCjdvM3Ex7bmsb2Jy4xlh8Z0NaRULHnRq2EbmZVXG1DfpuTYeNP7UmINmrES/km/FqjrbhXoeOOWoKVxOQ7NVwFzJ0Hv4PV3OULEJIc7cY8hKgG+CilzAteFZw2AdMaCnd4TWwmIQYYnH9fkOM16yCt8K6pcm6dOv9wT2s/uTlPQD1VT1Q====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>Parser_test</Name>
+			<Path>./test</Path>
+			<FullName>./test/Parser_test</FullName>
+			<FullCommandLine>C:\Users\user123\Desktop\11class\ownInterpreter\build\test\Parser_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.308445</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\Users\user123\Desktop\11class\ownInterpreter\build\test\Parser_test.exe</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJylU9FugjAUfecr7qM+SEQXlyzZAyozZIoLxb1YQxArkkFLaNHt71eoYc4wNe4+tLftOff0NL1uQWlMI0iDmLbasM1ZCqMnvOAk57iQo9Hr4zHhH4Jl2DDCJOAcswO1qSB5lhM54oixKJEZF6cpz0MclZlf1tbDUFs+17EC9yjc60MJ4kp6UC2AF7GcdW3ZqWMFk4Stg0QBCN3HOaMpoRJMRKfIzsCGwlVF30wXWa7vzMcW8m3kI3Nm+Z6FPG0J7sKBKlZ/w/Qzjor5680caHUh5e07bqiYIJgIkrZ2VuDx9OWOJd5N1zaH0wv+fiH0oYnsUb3XaO4SAVoD5eyqkO14PzsmQvbEuUGtgVU/5lXJl+ncvEe0kXe7bMOdfbSY3ee2ZP7T8UVxXdc1b0cgL/8i24KQefUvWSGyQsAh4PIsZXuyAR7TkEAsu+8zJGTDFXgnqTuWbEq20e09wPqr6t1vzZREiA==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>Interpreter_test</Name>
+			<Path>./test</Path>
+			<FullName>./test/Interpreter_test</FullName>
+			<FullCommandLine>C:\Users\user123\Desktop\11class\ownInterpreter\build\test\Interpreter_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.208879</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\Users\user123\Desktop\11class\ownInterpreter\build\test\Interpreter_test.exe</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyVU1FvgjAQfudX3KM+SCyaLFmyB3XGkSXMFHyyxiBWJIOWtEW3f79CDWFTJt7D9Zr7vu/ueikuGEtYDFmYsF4fDoJnMHsmK0mFJIX2yBmRVyo/Fc8JQlEaSkn4mblMUZELqj2JOY9THUnVDKWISFxG21LbjiJr/VLbBvCl8BOUGGkqj6sLyCLRp22tB7VtYJHyXZgaAGWnRHCWUabBVA2K/A941FR1vWCOl3iu/TaY+4G1BrzyoLLNVdaeTnx3VoVII419vN9BQm8Imex3lnY6SzuPSC+xTnSSrpDQQ0a689sZBiiuwrRv/SYis5wr3sT33YXX3r/JX/qqwS0j3ADXD9S9GUN5bIwpnnizN9dbtE9SQy79NSkt87RSbu7mbm//7ce5sVjbtq3gSEGUsvwASsdVCV6ovFBwDqXOZfxE9yATFlFI9Pf7iijdSwM+auqRp/uSjYbOGHbf1ef9AejSQaA=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>Service_test</Name>
+			<Path>./test</Path>
+			<FullName>./test/Service_test</FullName>
+			<FullCommandLine>C:\Users\user123\Desktop\11class\ownInterpreter\build\test\Service_test.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.140702</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\Users\user123\Desktop\11class\ownInterpreter\build\test\Service_test.exe</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNkEFPhDAQhe/8ijnCgSboQWPige2iISq7KXKihFSshFha0hb9+xa72bCbGPcdJi+ZLzPzhsxSDrKHkQ0yjOBDqxHwHa0M14bOriZX13TLzadVE02STjBjqPqWubRcT5q7SnuleuGcsWtrdEf7xbXLbNR1QX1/VAPksDiBhfGLD97Mg+UoqOOjGngU6o0J3+fya9BKjlw6ltt4ns7g9cw9SfFrjtPntiqzoAZSFfCr5rSFHvLNrkgxztuietlkpHSw1+7pfxjCGxhNdOEdngarLBNRcFlSy5mO393rT//41/9AM4kgvF3tcXn2aVlm2yW8Z1HwA2fgniM=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Apr 19 18:44 RTZ 2 (ceia)</EndDateTime>
+		<EndTestTime>1650383072</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

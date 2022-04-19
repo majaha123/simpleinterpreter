@@ -1,0 +1,3 @@
+C:\Users\user123\Desktop\11class\cmake-3.22.0-rc2-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\interpreter_v_0_0_1.dir/objects.a
+C:\mingw32\bin\ar.exe qc CMakeFiles\interpreter_v_0_0_1.dir/objects.a @CMakeFiles\interpreter_v_0_0_1.dir\objects1.rsp
+C:\mingw32\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\interpreter_v_0_0_1.dir/objects.a -Wl,--no-whole-archive -o interpreter_v_0_0_1.exe -Wl,--out-implib,libinterpreter_v_0_0_1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\interpreter_v_0_0_1.dir\linklibs.rsp
