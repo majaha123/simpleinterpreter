@@ -1,3 +1,0 @@
-C:\Users\user123\Desktop\11class\cmake-3.22.0-rc2-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\Lexer_test.dir/objects.a
-C:\mingw32\bin\ar.exe qc CMakeFiles\Lexer_test.dir/objects.a @CMakeFiles\Lexer_test.dir\objects1.rsp
-C:\mingw32\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Lexer_test.dir/objects.a -Wl,--no-whole-archive -o Lexer_test.exe -Wl,--out-implib,libLexer_test.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Lexer_test.dir\linklibs.rsp
